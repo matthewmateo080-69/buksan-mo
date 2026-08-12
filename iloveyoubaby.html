@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>404 Not Found</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { height: 100vh; background: #0f0f0f; color: #e5e7eb; display: flex; align-items: center; justify-content: center; font-family: Consolas, Menlo, monospace; }
+
+
+.error { width: 100%; max-width: 760px; padding: 48px; }
+.error h1 { font-size: 64px; margin-bottom: 6px; }
+.error h2 { font-size: 20px; font-weight: normal; margin-bottom: 20px; }
+.error p { font-size: 14px; color: #9ca3af; line-height: 1.7; margin-bottom: 28px; }
+.error ul { font-size: 13px; color: #6b7280; margin-bottom: 36px; padding-left: 18px; }
+.error button { font-family: inherit; background: #1a1a1a; border: 1px solid #333; color: #e5e7eb; padding: 10px 22px; cursor: pointer; }
+
+
+body.card-mode { font-family: 'Crimson Text', serif; background: #111; color: #fff; justify-content: flex-start; padding-top: 50px; }
+.handwritten { font-family: 'Dancing Script', cursive; }
+.perspective { perspective: 1500px; }
+</style>
+</head>
+<body>
+
+
+<div class="error" id="error">
+  <h1>404</h1>
+  <h2>Not Found</h2>
+  <p>The requested resource could not be found on this server.</p>
+  <ul>
+    <li>The URL may be incorrect</li>
+    <li>The resource may no longer exist</li>
+    <li>Please try again later</li>
+  </ul>
+  <button onclick="showValentine()">Refresh</button>
+</div>
+
+<script>
+function showValentine() {
+
+    document.body.classList.add('card-mode');
+    document.body.innerHTML = `
+    <div class="relative w-full max-w-[620px] aspect-[16/11] group perspective mx-auto">
+    
+    <div class="absolute inset-x-0 mx-auto w-[92%] h-[95%] bg-[#fcfaf7] shadow-2xl border border-zinc-200 p-8 
+                transition-all duration-700 ease-in-out z-0
+                group-hover:-translate-y-52 group-hover:z-50">
+        
+        <div class="h-full border border-red-100 p-5 flex flex-col justify-between relative">
+            
+            <div class="flex justify-between items-start">
+                <div class="space-y-2">
+                    <h2 class="handwritten text-3xl text-zinc-800">Dear Trixie,</h2>
+                    <p class="text-sm italic text-zinc-600 max-w-[380px] leading-none">
+                        1. I love you, Jane, because you have a cute smile.
+
+2. I love you because of your cute and silly laugh.
+
+3. I love you because no matter what, we still try to fix things—basta 'wag lang ako mag-follow ng ibang babae! I love you, babe! Hahaha.
+
+4. I love you because you have a vibrant and positive energy; even when I'm in a bad mood sometimes, you still try to make things positive.
+
+5. I love you because you have beautiful eyes.
+
+6. I love you because no matter what, you still reassure me even if I don't ask for it.
+
+7. I love you because you always tell me stories.
+
+8. I love how you own who you are.
+
+9. I love how you look in red.
+
+10. I love how you love red roses, baby.
+
+11. I love how passionate you are.
+
+12. I love you because you're always honest with me.
+
+13. I love you because you never try to be someone else.
+
+14. I love you because you give the warmest hugs.
+
+15. I love you because you stand up for what you believe in.
+
+16. I love you because you brighten up my day.
+
+17. I love you because even though you're busy, you always make time for me.
+
+18. I love you because you make me feel loved every day without me even asking.
+
+19. I love you because loving you is the easiest and most natural thing.
+
+20. I love you because even if this isn't 100, 200, or 500 reasons, I know there is still so much to love about you, baby. I am still learning about you, and every day this list keeps getting longer.
+
+                    </p>
+                </div>
+                <div class="w-14 h-20 border border-dotted border-zinc-300 bg-zinc-50 flex flex-col items-center justify-center p-1">
+                     <div class="text-[8px] uppercase tracking-widest text-zinc-400">Post</div>
+                     <div class="w-full h-full bg-center bg-cover" style="background-image: url('https://scontent.fcrk1-4.fna.fbcdn.net/v/t1.15752-9/771572523_3644361762377759_4231870007716072853_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=jL1f1kZqIhAQ7kNvwG64KcR&_nc_oc=Adq2m8jGtGHup1imd56i7mF4CQpQYL1eSDvkNCZggdflTDQNGkr_2o1x_LzDgBiqeqk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fcrk1-4.fna&_nc_ss=7a22e&oh=03_Q7cD6AFrwRhe7wpUQYJZtJZ5EMS57nruziIa5NCL0zmSLGtMcw&oe=6AA44ED7')"></div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <p class="text-xl font-bold text-red-900 italic uppercase tracking-[0.15em]">
+                    i am sorry babe
+                </p>
+            </div>
+
+            <div class="flex justify-between items-end border-t border-red-50/50 pt-4">
+                <div class="text-[9px] text-red-800/60 uppercase tracking-widest italic leading-tight max-w-[140px]">
+                    
+                </div>
+                <div class="text-right">
+                    <p class="text-[10px] text-zinc-400 uppercase tracking-widest">,</p>
+                    <p class="handwritten text-2xl text-red-900"></p>
+                </div>
+            </div>
+
+            <!-- Moved Hover to Open inside the card -->
+          
+        </div>
+    </div>
+
+    <div class="absolute inset-0 bg-white border border-zinc-200 shadow-xl z-100 overflow-hidden">
+        <div class="absolute inset-0 z-20" style="background: linear-gradient(35deg, #ffffff 50%, #f9f9f9 50.1%);"></div>
+        
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-40 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+            <div class="w-14 h-14 bg-red-800 rounded-full shadow-lg border border-red-900 flex items-center justify-center">
+                <span class="text-red-300 text-lg">❤</span>
+            </div>
+        </div>
+
+        <div class="absolute bottom-8 w-full text-center z-40">
+            <p class="text-red-900 font-bold uppercase tracking-[0.4em] text-[11px]">YOU AND I</p>
+        </div>
+    </div>
+
+    <div class="absolute top-0 left-0 w-full h-1/2 bg-zinc-100 origin-top transition-transform duration-500 ease-in-out 
+                group-hover:[transform:rotateX(180deg)] z-30 shadow-sm"
+         style="clip-path: polygon(0 0, 50% 100%, 100% 0);">
+    </div>
+
+</div>
+  <div class="absolute bottom-2 left-1/2 -translate-x-1/2 text-zinc-600 text-[10px] uppercase tracking-[0.4em] animate-pulse text-center">
+                Hover to Open
+            </div>
+
+    `;
+}
+</script>
+
+</body>
+</html>
